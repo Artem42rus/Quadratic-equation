@@ -1,6 +1,6 @@
 #include "function.h"
 
-int Check (int D)
+double Check (double D)
 {
 	if (D == 0) {
 		return 0;
@@ -12,8 +12,8 @@ int Check (int D)
 	  return 0;
 }
 }
-int Disc(int a,int b, int c)
+double Disc(double a,double b, double c)
 {
-	int D = (b*b) - (4 * a * c);
+	double D = (b*b) - (4 * a * c);
 	return D;
 }

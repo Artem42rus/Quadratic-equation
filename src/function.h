@@ -1,8 +1,8 @@
 #ifndef OTHERFUNC_H
 #define OTHERFUNC_H
 
-int Disc(int a ,int b ,int c );
+double Disc(double a ,double b ,double c );
 
-int Check (int D);
+double Check (double D);
 
 #endif

@@ -5,9 +5,9 @@ using namespace std;
 	
 int main ()
 {
-	int a,b,c;
-	int D, i;
-	float x, x1, x2;
+	double a,b,c;
+	double D, i;
+	double x, x1, x2;
 	cout << "a = ";
 	cin >> a;
 	cout << "b = ";
