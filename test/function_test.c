@@ -54,7 +54,7 @@ CTEST(Test_3_discriment, input_4_4_1)
 	
     ASSERT_EQUAL(expected, result);
 }
-CTEST(Test_3_discriment, input_10_2_1)
+CTEST(Test_4_discriment, input_10_2_1)
 {
     int result = Disc(10,2,1);
 	
@@ -62,7 +62,7 @@ CTEST(Test_3_discriment, input_10_2_1)
 	
     ASSERT_EQUAL(expected, result);
 }
-CTEST(Test_3_discriment, input_-8_4_3)
+CTEST(Test_5_discriment, input_-8_4_3)
 {
     int result = Disc(-8,4,3);
 	
@@ -70,7 +70,7 @@ CTEST(Test_3_discriment, input_-8_4_3)
 	
     ASSERT_EQUAL(expected, result);
 }
-CTEST(Test_3_discriment, input_24_30_-40)
+CTEST(Test_6_discriment, input_25_30_-40_)
 {
     int result = Disc(25,30,-40);
 	
