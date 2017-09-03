@@ -1,8 +1,9 @@
-#ifndef OTHERFUNC_H
-#define OTHERFUNC_H
+#ifndef FUNCTION_H
+#define FUNCTION_H
 
-double Disc(double a ,double b ,double c );
+float Discriment(float a, float b, float c);
 
-double Check (double D);
+int Proverka(float D);
 
 #endif
+
