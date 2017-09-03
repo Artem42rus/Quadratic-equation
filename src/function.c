@@ -17,6 +17,7 @@ int Proverka(float D)
 float Discriment(float a, float b, float c)
 {
 	float D = b*b - 4 * a * c;
+	
 	return D;
 }
 
